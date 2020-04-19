@@ -1,0 +1,28 @@
+{
+  "name": "fakeapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandops26/fakeapi.git"
+  },
+  "author": "Fernando Palacios",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fernandops26/fakeapi/issues"
+  },
+  "dependencies": {
+    "faker": "4.1.0",
+    "axios": "0.19.2",
+    "json-server": "0.16.1",
+    "koa": "2.11.0",
+    "koa-router": "8.0.8",
+    "koa-static": "5.0.0",
+    "koa-connect": "2.0.1"
+  },
+  "homepage": "https://github.com/fernandops26/fakeapi#readme"
+}
