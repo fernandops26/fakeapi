@@ -1,7 +1,7 @@
 module.exports = [
   {
     id: 2,
-    title: 'Domain',
+    title: 'Domains',
     subtitle: 'API de dominios',
     structure: {
       id: 1,
