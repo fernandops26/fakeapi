@@ -57,7 +57,10 @@
 </div>
 
 <div id="tab2" style="display: {activeTab == 'routes' ? 'block' : 'none'}">
-  <p>Rutas disponibles</p>
+  <p>
+    Rutas disponibles, no olvides la base
+    <code>/api</code>
+  </p>
   <table class="table is-fullwidth">
     <thead>
       <tr>
