@@ -13,5 +13,5 @@ module.exports = async () => {
     image,
   }));
 
-  return { dogs: items };
+  return items;
 };

@@ -1,14 +1,14 @@
 <section class="hero">
   <div class="hero-body">
     <div class="container has-text-centered">
-      <h1 class="title is-spaced">Falsa API</h1>
+      <h1 class="title is-spaced">Central API EDSS</h1>
       <h2 class="subtitle">
-        Decentralized, secure, private. The PiperNet is on it's way to
-        revolutionize every smartphone, PC, and smart-fridge near you.
+        APIs falsas centralizadas, listas para utilizar en proyectos de
+        desarrollo de software movil o web, para un prototipado rápido.
       </h2>
       <div class="buttons is-centered">
-        <a class="control button is-primary" href="#">Sign up for free</a>
-        <a class="control button is-light" href="#">Read more</a>
+        <div class="control button is-primary">Como usarlas</div>
+        <a class="control button is-light" href="#">Visita el blog</a>
       </div>
     </div>
   </div>

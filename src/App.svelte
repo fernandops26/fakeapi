@@ -16,7 +16,6 @@
   <Header />
   <Features />
   <ApiContainer />
-
 </div>
 
 <h1>Hello {name}!</h1>

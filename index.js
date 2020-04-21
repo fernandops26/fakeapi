@@ -1,16 +1,19 @@
 // server.js
 const jsonServer = require('json-server');
 const server = jsonServer.create();
+const apiList = require('./util/apiList');
 
 const middlewares = jsonServer.defaults();
 server.use(middlewares);
 
-const listOfRoutes = ['databases/dog.json'];
+const databases = require('./databases');
 
-listOfRoutes.forEach((item) => {
-  const router = jsonServer.router(item);
+const router = jsonServer.router(databases);
 
-  server.use('/api/', router);
+server.use('/api', router);
+
+server.get('/list', (req, res) => {
+  return res.send({ apiList });
 });
 
 server.listen(3000, () => {

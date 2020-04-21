@@ -38,7 +38,9 @@
 </div>
 <div id="tab1" style="display: {activeTab == 'structure' ? 'block' : 'none'}">
   <pre>
-    <code lang="language-js">{JSON.stringify(activeAPIData.structure)}</code>
+    <code lang="language-js">
+      {JSON.stringify(activeAPIData.structure, undefined, 2)}
+    </code>
   </pre>
   <br />
   <p>La estructura del objeto es a siguiente</p>
@@ -75,13 +77,13 @@
 </div>
 <div id="tab3" style="display: {activeTab == 'example' ? 'block' : 'none'}">
   <pre>
-    fetch('https://jsonplaceholder.typicode.com/todos/1').then(response =>
-    response.json()) .then(json => console.log(json))
+    fetch('https://jsonplaceholder.typicode.com{activeAPIData.example}')
+    .then(response => response.json()) .then(json => console.log(json))
   </pre>
   <br />
   <div class="button is-primary" on:click={callAPI}>Probar</div>
   <br />
   <br />
   <p>Resultado:</p>
-  <pre>{JSON.stringify(apiResult)}</pre>
+  <pre>{JSON.stringify(apiResult, undefined, 2)}</pre>
 </div>

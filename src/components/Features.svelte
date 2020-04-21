@@ -10,10 +10,11 @@
         </div>
         <h4 class="title">
           <small class="number">1</small>
-          Selecciona la API
+          Busca la API
         </h4>
         <p>
-          Una de las siguientes APIs te ayuda a modelas tu data rapidamente.
+          Busca entre todas las APIs, la que te ayude a modelar tu data
+          rapidamente ¡El tiempo es oro!.
         </p>
       </div>
       <div class="column is-8 is-4-widescreen">
@@ -24,11 +25,11 @@
         </div>
         <h4 class="title">
           <small class="number">2</small>
-          Selecciona tu herramienta
+          Realiza la petición con tu herramienta preferida
         </h4>
         <p>
           Puedes utilizar Fetch, Axios, Request o incluso XMLHttp si eres de los
-          duros.
+          duros, ahora ve al paso tres.
         </p>
       </div>
       <div class="column is-8 is-4-widescreen">
@@ -42,8 +43,9 @@
           Obten la data
         </h4>
         <p>
-          Ya basta de procastinar esta api no demora no 1 segundo, ahora si
-          manos a la obra.
+          Ya basta de procastinar las APIs no demoran ni 1 segundo, así que
+          manos a la obra...por cierto, este paso no deberia estar pero es para
+          rellenar, buen provecho xD.
         </p>
       </div>
     </div>

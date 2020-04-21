@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "name": "Herminia",
+    "image": "https://images.dog.ceo/breeds/pekinese/n02086079_5590.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Enid",
+    "image": "https://images.dog.ceo/breeds/chihuahua/n02085620_2815.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Ahmad",
+    "image": "https://images.dog.ceo/breeds/mastiff-english/2.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Rosetta",
+    "image": "https://images.dog.ceo/breeds/otterhound/n02091635_554.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Hope",
+    "image": "https://images.dog.ceo/breeds/stbernard/n02109525_10992.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Garett",
+    "image": "https://images.dog.ceo/breeds/dalmatian/cooper2.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Alexandria",
+    "image": "https://images.dog.ceo/breeds/poodle-toy/n02113624_223.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Linwood",
+    "image": "https://images.dog.ceo/breeds/poodle-miniature/n02113712_1590.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Branson",
+    "image": "https://images.dog.ceo/breeds/kuvasz/n02104029_3491.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Larry",
+    "image": "https://images.dog.ceo/breeds/hound-afghan/n02088094_11182.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Pamela",
+    "image": "https://images.dog.ceo/breeds/terrier-scottish/n02097298_2722.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Maureen",
+    "image": "https://images.dog.ceo/breeds/ovcharka-caucasian/IMG_20190826_112025.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Angie",
+    "image": "https://images.dog.ceo/breeds/terrier-border/n02093754_1460.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Shania",
+    "image": "https://images.dog.ceo/breeds/maltese/n02085936_8900.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Gunner",
+    "image": "https://images.dog.ceo/breeds/terrier-westhighland/n02098286_516.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Unique",
+    "image": "https://images.dog.ceo/breeds/dingo/n02115641_6309.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Ophelia",
+    "image": "https://images.dog.ceo/breeds/hound-ibizan/n02091244_2934.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Harry",
+    "image": "https://images.dog.ceo/breeds/puggle/IMG_090821.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Palma",
+    "image": "https://images.dog.ceo/breeds/pinscher-miniature/n02107312_4741.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Lila",
+    "image": "https://images.dog.ceo/breeds/hound-walker/n02089867_2582.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Mya",
+    "image": "https://images.dog.ceo/breeds/otterhound/n02091635_4175.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Alexie",
+    "image": "https://images.dog.ceo/breeds/retriever-golden/n02099601_5188.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Steve",
+    "image": "https://images.dog.ceo/breeds/stbernard/n02109525_2737.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Russel",
+    "image": "https://images.dog.ceo/breeds/cattledog-australian/IMG_1062.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Felton",
+    "image": "https://images.dog.ceo/breeds/sheepdog-shetland/n02105855_13348.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Dane",
+    "image": "https://images.dog.ceo/breeds/dhole/n02115913_1578.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Madie",
+    "image": "https://images.dog.ceo/breeds/bullterrier-staffordshire/n02093256_2975.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Johnnie",
+    "image": "https://images.dog.ceo/breeds/terrier-norfolk/n02094114_2165.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Mandy",
+    "image": "https://images.dog.ceo/breeds/saluki/n02091831_2290.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Milton",
+    "image": "https://images.dog.ceo/breeds/pyrenees/n02111500_5004.jpg"
+  },
+  {
+    "id": 31,
+    "name": "Favian",
+    "image": "https://images.dog.ceo/breeds/finnish-lapphund/mochilamvan.jpg"
+  },
+  {
+    "id": 32,
+    "name": "Roscoe",
+    "image": "https://images.dog.ceo/breeds/hound-afghan/n02088094_13502.jpg"
+  },
+  {
+    "id": 33,
+    "name": "Lavern",
+    "image": "https://images.dog.ceo/breeds/dhole/n02115913_1332.jpg"
+  },
+  {
+    "id": 34,
+    "name": "Briana",
+    "image": "https://images.dog.ceo/breeds/terrier-kerryblue/n02093859_2124.jpg"
+  },
+  {
+    "id": 35,
+    "name": "Eusebio",
+    "image": "https://images.dog.ceo/breeds/schipperke/n02104365_5411.jpg"
+  },
+  {
+    "id": 36,
+    "name": "Anna",
+    "image": "https://images.dog.ceo/breeds/shihtzu/n02086240_3582.jpg"
+  },
+  {
+    "id": 37,
+    "name": "Itzel",
+    "image": "https://images.dog.ceo/breeds/terrier-yorkshire/n02094433_540.jpg"
+  },
+  {
+    "id": 38,
+    "name": "Sigurd",
+    "image": "https://images.dog.ceo/breeds/bulldog-boston/n02096585_2082.jpg"
+  },
+  {
+    "id": 39,
+    "name": "Vivianne",
+    "image": "https://images.dog.ceo/breeds/spaniel-japanese/n02085782_3578.jpg"
+  },
+  {
+    "id": 40,
+    "name": "Bruce",
+    "image": "https://images.dog.ceo/breeds/schipperke/n02104365_740.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Louisa",
+    "image": "https://images.dog.ceo/breeds/schnauzer-miniature/n02097047_1626.jpg"
+  },
+  {
+    "id": 42,
+    "name": "Kip",
+    "image": "https://images.dog.ceo/breeds/terrier-russell/little1.jpg"
+  },
+  {
+    "id": 43,
+    "name": "Joan",
+    "image": "https://images.dog.ceo/breeds/appenzeller/n02107908_1777.jpg"
+  },
+  {
+    "id": 44,
+    "name": "Verlie",
+    "image": "https://images.dog.ceo/breeds/hound-afghan/n02088094_8063.jpg"
+  },
+  {
+    "id": 45,
+    "name": "Luis",
+    "image": "https://images.dog.ceo/breeds/husky/n02110185_3302.jpg"
+  },
+  {
+    "id": 46,
+    "name": "Korey",
+    "image": "https://images.dog.ceo/breeds/affenpinscher/n02110627_3026.jpg"
+  },
+  {
+    "id": 47,
+    "name": "Mauricio",
+    "image": "https://images.dog.ceo/breeds/chow/n02112137_3439.jpg"
+  },
+  {
+    "id": 48,
+    "name": "Jewel",
+    "image": "https://images.dog.ceo/breeds/dane-great/n02109047_282.jpg"
+  },
+  {
+    "id": 49,
+    "name": "Fae",
+    "image": "https://images.dog.ceo/breeds/terrier-wheaten/n02098105_100.jpg"
+  },
+  {
+    "id": 50,
+    "name": "Rusty",
+    "image": "https://images.dog.ceo/breeds/australian-shepherd/sadie.jpg"
+  }
+]

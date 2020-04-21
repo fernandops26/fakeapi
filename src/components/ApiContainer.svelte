@@ -1,55 +1,22 @@
 <script>
   import ApiList from "./ApiList.svelte";
   import ApiPreview from "./ApiPreview.svelte";
+  import { onMount } from "svelte";
 
-  const apiData = [
-    {
-      id: 1,
-      title: "Dogs",
-      subtitle: "API de perros",
-      structure: {
-        id: "1",
-        name: "Pepito",
-        image: "https://image.jpg"
-      },
-      structureDescription: [
-        {
-          key: "id",
-          description: "Id"
-        },
-        {
-          key: "name",
-          description: "Nombre del perro"
-        },
-        {
-          key: "image",
-          description: "Imagen"
-        }
-      ],
-      routes: [
-        {
-          method: "GET",
-          route: "/dogs"
-        },
-        {
-          method: "GET",
-          route: "/dogs/1"
-        },
-        {
-          method: "POST",
-          route: "/dogs"
-        }
-      ],
-      example: "/api/dogs/1"
-    }
-  ];
+  let apiListData = [];
+
+  onMount(async () => {
+    const res = await fetch("/list");
+    const data = await res.json();
+    apiListData = data.apiList;
+  });
 
   let activeAPI = null;
 
   function onChangeActiveAPI({ detail }) {
     const id = detail.id;
 
-    activeAPI = apiData.find(item => item.id == id);
+    activeAPI = apiListData.find(item => item.id == id);
   }
 </script>
 
@@ -57,7 +24,7 @@
   <div class="container">
     <div class="columns is-desktop is-vcentered">
       <div class="column is-6-desktop">
-        <ApiList apiList={apiData} on:changeActiveAPI={onChangeActiveAPI} />
+        <ApiList apiList={apiListData} on:changeActiveAPI={onChangeActiveAPI} />
       </div>
       <div class="column is-6-desktop box">
         {#if activeAPI}
