@@ -1,7 +1,10 @@
 <script>
+  import { apiResult } from "./../store.js";
+  console.log(apiResult);
+
   export let activeAPIData = {};
   let activeTab = "structure";
-  let apiResult = "";
+  //let apiResult = "";
 
   function handleTab(value) {
     activeTab = value;
@@ -10,7 +13,7 @@
   async function callAPI() {
     const response = await fetch(activeAPIData.example);
     const data = await response.json();
-    apiResult = data;
+    apiResult.set(data);
   }
 </script>
 
@@ -81,12 +84,12 @@
 <div id="tab3" style="display: {activeTab == 'example' ? 'block' : 'none'}">
   <pre>
     fetch('https://jsonplaceholder.typicode.com{activeAPIData.example}')
-    .then(response => response.json()) .then(json => console.log(json))
+    .then(response => response.json()) .then(console.log)
   </pre>
   <br />
   <div class="button is-primary" on:click={callAPI}>Probar</div>
   <br />
   <br />
   <p>Resultado:</p>
-  <pre>{JSON.stringify(apiResult, undefined, 2)}</pre>
+  <pre>{JSON.stringify($apiResult, undefined, 2)}</pre>
 </div>

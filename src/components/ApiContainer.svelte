@@ -2,6 +2,7 @@
   import ApiList from "./ApiList.svelte";
   import ApiPreview from "./ApiPreview.svelte";
   import { onMount } from "svelte";
+  import { apiResult } from "./../store.js";
 
   let apiListData = [];
 
@@ -17,6 +18,7 @@
     const id = detail.id;
 
     activeAPI = apiListData.find(item => item.id == id);
+    apiResult.set("");
   }
 </script>
 
