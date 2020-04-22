@@ -4,6 +4,7 @@ const libraryAPI = require('./library');
 const hashtagAPI = require('./hashtag');
 const shortLoremAPI = require('./shortLorem');
 const longLoremAPI = require('./longLorem');
+const userAPI = require('./user');
 
 module.exports = [].concat(
   dogAPI,
@@ -11,5 +12,6 @@ module.exports = [].concat(
   libraryAPI,
   hashtagAPI,
   shortLoremAPI,
-  longLoremAPI
+  longLoremAPI,
+  userAPI
 );
