@@ -5,6 +5,7 @@ const hashtagsDb = require('./hashtags.json');
 const shortLoremsDb = require('./shortLorems.json');
 const longLoremsDb = require('./longLorems.json');
 const usersDb = require('./users.json');
+const jobsDB = require('./jobs.json');
 
 module.exports = {
   dogs: dogsDb,
@@ -14,4 +15,5 @@ module.exports = {
   shortlorems: shortLoremsDb,
   longlorems: longLoremsDb,
   users: usersDb,
+  jobs: jobsDB,
 };

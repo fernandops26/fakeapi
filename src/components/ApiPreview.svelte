@@ -43,7 +43,7 @@
     </code>
   </pre>
   <br />
-  <p>La estructura del objeto es a siguiente</p>
+  <p>La estructura del objeto es la siguiente</p>
   <table class="table is-fullwidth">
     <tbody>
       {#each activeAPIData.structureDescription as structureItem}

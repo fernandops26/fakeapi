@@ -4,6 +4,7 @@ const libraryAPI = require('./library');
 const hashtagAPI = require('./hashtag');
 const shortLoremAPI = require('./shortLorem');
 const longLoremAPI = require('./longLorem');
+const jobAPI = require('./job');
 const userAPI = require('./user');
 
 module.exports = [].concat(
@@ -13,5 +14,6 @@ module.exports = [].concat(
   hashtagAPI,
   shortLoremAPI,
   longLoremAPI,
-  userAPI
+  userAPI,
+  jobAPI
 );
