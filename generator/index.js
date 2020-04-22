@@ -6,6 +6,7 @@ const shortLorems = require('./shortLorems');
 const longLorems = require('./longLorems');
 const users = require('./users');
 const jobs = require('./jobs');
+const visits = require('./visits');
 const writer = require('./../util/writer');
 
 const init = async () => {
@@ -17,6 +18,7 @@ const init = async () => {
   const longLoremData = await longLorems();
   const userData = await users();
   const jobData = await jobs();
+  const visitData = await visits();
 
   /*writer('dogs.json', dogData);
   writer('domains.json', domainsData);
@@ -24,8 +26,9 @@ const init = async () => {
   writer('hashtags.json', hashtagData);
   writer('shortLorems.json', shortLoremData);
   writer('longLorems.json', longLoremData);
-  writer('users.json', userData);*/
-  writer('jobs.json', jobData);
+  writer('users.json', userData);
+  writer('jobs.json', jobData);*/
+  writer('visits.json', visitData);
 };
 
 init();

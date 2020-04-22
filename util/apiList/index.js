@@ -6,6 +6,7 @@ const shortLoremAPI = require('./shortLorem');
 const longLoremAPI = require('./longLorem');
 const jobAPI = require('./job');
 const userAPI = require('./user');
+const visitAPI = require('./visit');
 
 module.exports = [].concat(
   dogAPI,
@@ -15,5 +16,6 @@ module.exports = [].concat(
   shortLoremAPI,
   longLoremAPI,
   userAPI,
-  jobAPI
+  jobAPI,
+  visitAPI
 );
