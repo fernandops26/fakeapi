@@ -6,7 +6,6 @@
   export let apiList;
 
   function onChange(id) {
-    //console.log(e);
     dispatch("changeActiveAPI", {
       id
     });
@@ -15,12 +14,7 @@
 
 <div class="card events-card">
   <header class="card-header">
-    <h2 class="card-header-title">APIs</h2>
-    <a href="#" class="card-header-icon" aria-label="more options">
-      <span class="icon">
-        <i class="fa fa-angle-down" aria-hidden="true" />
-      </span>
-    </a>
+    <h2 class="card-header-title">Lista de APIs</h2>
   </header>
   <div class="card-table">
     <div class="content">
@@ -34,7 +28,7 @@
               <td>{api.title}</td>
               <td class="level-right">
                 <div
-                  class="button is-small is-primary"
+                  class="button is-small is-success"
                   on:click={onChange(api.id)}>
                   Ver
                 </div>
@@ -46,6 +40,6 @@
     </div>
   </div>
   <footer class="card-footer">
-    <a href="#" class="card-footer-item">View All</a>
+    <a href="#" class="card-footer-item">¿No encontraste lo que buscabas?</a>
   </footer>
 </div>

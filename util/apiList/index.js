@@ -9,6 +9,7 @@ const userAPI = require('./user');
 const visitAPI = require('./visit');
 const transactionAPI = require('./transaction');
 const productAPI = require('./product');
+const geolocationAPI = require('./geoLocation');
 
 module.exports = [].concat(
   dogAPI,
@@ -21,5 +22,6 @@ module.exports = [].concat(
   jobAPI,
   visitAPI,
   transactionAPI,
-  productAPI
+  productAPI,
+  geolocationAPI
 );

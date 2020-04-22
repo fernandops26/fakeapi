@@ -22,17 +22,28 @@
   }
 </script>
 
-<section class="section">
+<section id="apiList" class="section">
   <div class="container">
-    <div class="columns is-desktop is-vcentered">
+    <h2 class="title has-text-centered">APIs disponibles</h2>
+    <div class="columns is-desktop">
       <div class="column is-6-desktop">
         <ApiList apiList={apiListData} on:changeActiveAPI={onChangeActiveAPI} />
       </div>
-      <div class="column is-6-desktop box">
+      <div class="column is-6-desktop box is-vcentered">
         {#if activeAPI}
           <ApiPreview activeAPIData={activeAPI} />
         {:else}
-          <h2>Selecciona una API</h2>
+          <div class="">
+            <h2 class="title is-4 has-text-centered">
+              Selecciona una API para ver su información
+            </h2>
+            <figure class="image container is-128x128">
+              <img class="" src="/fox.png" alt="" />
+            </figure>
+            <p class="has-text-centered">
+              Este fox solo desaparecerá cuando dejes de procastinar
+            </p>
+          </div>
         {/if}
       </div>
     </div>

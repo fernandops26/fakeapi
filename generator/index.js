@@ -9,6 +9,7 @@ const jobs = require('./jobs');
 const visits = require('./visits');
 const transactions = require('./transactions');
 const products = require('./products');
+const geoLocations = require('./geolocations');
 const writer = require('./../util/writer');
 
 const init = async () => {
@@ -23,6 +24,7 @@ const init = async () => {
   const visitData = await visits();
   const transactionData = await transactions();
   const productData = await products();
+  const geoLocationData = await geoLocations();
 
   /*writer('dogs.json', dogData);
   writer('domains.json', domainsData);
@@ -33,8 +35,9 @@ const init = async () => {
   writer('users.json', userData);
   writer('jobs.json', jobData);
   writer('visits.json', visitData);
-  writer('transactions.json', transactionData);*/
-  writer('products.json', productData);
+  writer('transactions.json', transactionData);
+  writer('products.json', productData);*/
+  writer('geolocations.json', geoLocationData);
 };
 
 init();

@@ -9,6 +9,7 @@ const jobsDB = require('./jobs.json');
 const visitsDB = require('./visits.json');
 const transactionsDB = require('./transactions.json');
 const productsDB = require('./products.json');
+const geolocationsDB = require('./geolocations.json');
 
 module.exports = {
   dogs: dogsDb,
@@ -22,4 +23,5 @@ module.exports = {
   visits: visitsDB,
   transactions: transactionsDB,
   products: productsDB,
+  geolocations: geolocationsDB,
 };

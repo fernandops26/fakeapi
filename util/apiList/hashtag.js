@@ -14,7 +14,7 @@ module.exports = [
         description: 'Id',
       },
       {
-        key: 'name',
+        key: 'hashtag',
         description: 'Nombre del hashtag',
       },
       {
