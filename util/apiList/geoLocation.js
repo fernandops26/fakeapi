@@ -3,7 +3,7 @@ module.exports = [
     id: 12,
     title: 'GEO Locations',
     subtitle: 'API de GEO localizaciones',
-    size: 100,
+    size: 200,
     structure: {
       id: 1,
       streetA: 'Raegan Mission',

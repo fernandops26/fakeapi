@@ -3,7 +3,7 @@ module.exports = [
     id: 11,
     title: 'Product',
     subtitle: 'API de productos',
-    size: 100,
+    size: 200,
     structure: {
       id: 1,
       name: 'Incredible Granite Keyboard',

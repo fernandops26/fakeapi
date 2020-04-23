@@ -4,7 +4,7 @@ const chance = new Chance();
 
 // from: chance
 module.exports = async () => {
-  const items = Array(100)
+  const items = Array(200)
     .fill(0)
     .map((_, i) => ({
       id: i + 1,

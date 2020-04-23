@@ -3,7 +3,7 @@ module.exports = [
     id: 10,
     title: 'Transactions',
     subtitle: 'API de transacciones bancarias',
-    size: 100,
+    size: 200,
     structure: {
       id: 1,
       amount: '132.52',

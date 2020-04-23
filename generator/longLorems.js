@@ -2,7 +2,7 @@ const faker = require('faker');
 
 // from: using faker library
 module.exports = async () => {
-  const items = Array(100)
+  const items = Array(200)
     .fill(1)
     .map((_, i) => ({
       id: i + 1,

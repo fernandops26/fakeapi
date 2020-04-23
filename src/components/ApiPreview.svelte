@@ -86,7 +86,7 @@
 </div>
 <div id="tab3" style="display: {activeTab == 'example' ? 'block' : 'none'}">
   <pre>
-    fetch('https://jsonplaceholder.typicode.com{activeAPIData.example}')
+    fetch('https://centralfakeapi.eldevsin.site{activeAPIData.example}')
     .then(response => response.json()) .then(console.log)
   </pre>
   <br />

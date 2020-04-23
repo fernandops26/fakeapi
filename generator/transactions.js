@@ -2,7 +2,7 @@ const faker = require('faker');
 
 // from: faker
 module.exports = async () => {
-  const items = Array(100)
+  const items = Array(200)
     .fill(0)
     .map((_, i) => {
       const transaction = faker.helpers.createTransaction();

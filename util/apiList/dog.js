@@ -5,9 +5,10 @@ module.exports = [
     subtitle: 'API de perros',
     size: 50,
     structure: {
-      id: '1',
-      name: 'Pepito',
-      image: 'https://image.jpg',
+      id: 1,
+      name: 'Mark',
+      image:
+        'https://images.dog.ceo/breeds/terrier-kerryblue/n02093859_806.jpg',
     },
     structureDescription: [
       {
@@ -38,7 +39,7 @@ module.exports = [
       },
       {
         method: 'GET',
-        route: '/dogs?name=1',
+        route: '/dogs?name=Mark',
       },
       {
         method: 'PUT',

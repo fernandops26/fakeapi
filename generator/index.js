@@ -27,9 +27,9 @@ const init = async () => {
   const geoLocationData = await geoLocations();
 
   /*writer('dogs.json', dogData);
-  writer('domains.json', domainsData);*/
-  writer('libraries.json', librariesData);
-  /*writer('hashtags.json', hashtagData);
+  writer('domains.json', domainsData);
+  writer('libraries.json', librariesData);*/
+  writer('hashtags.json', hashtagData);
   writer('shortLorems.json', shortLoremData);
   writer('longLorems.json', longLoremData);
   writer('users.json', userData);
@@ -37,7 +37,7 @@ const init = async () => {
   writer('visits.json', visitData);
   writer('transactions.json', transactionData);
   writer('products.json', productData);
-  writer('geolocations.json', geoLocationData);*/
+  writer('geolocations.json', geoLocationData);
 };
 
 init();

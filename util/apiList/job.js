@@ -3,7 +3,7 @@ module.exports = [
     id: 8,
     title: 'Jobs',
     subtitle: 'API de trabajos',
-    size: 100,
+    size: 200,
     structure: {
       id: 1,
       job: 'Production Planner',

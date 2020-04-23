@@ -38,7 +38,7 @@ module.exports = [
       },
       {
         method: 'GET',
-        route: '/libraries?name=1',
+        route: '/libraries?name=vue',
       },
       {
         method: 'PUT',

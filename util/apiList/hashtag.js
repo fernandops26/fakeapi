@@ -3,7 +3,7 @@ module.exports = [
     id: 4,
     title: 'Hashtags',
     subtitle: 'API de hastags en tendencias ',
-    size: 100,
+    size: 200,
     structure: {
       id: '1',
       hashtag: '#cinjujob',
