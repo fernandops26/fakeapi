@@ -3,6 +3,7 @@ const rateLimit = require('express-rate-limit');
 const jsonServer = require('json-server');
 const server = jsonServer.create();
 const apiList = require('./util/apiList');
+const path = require('path');
 
 const limiter = rateLimit({
   windowMs: 1000, // 1 minute
@@ -16,6 +17,10 @@ server.use(middlewares);
 const databases = require('./databases');
 
 const router = jsonServer.router(databases);
+
+server.get('/robots.txt', (req, res) => {
+  res.sendFile(path.join(__dirname, './robots.txt'));
+});
 
 server.use('/api', router);
 
