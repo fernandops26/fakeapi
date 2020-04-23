@@ -2,6 +2,7 @@ const axios = require('axios');
 const faker = require('faker');
 
 // from: https://dog.ceo/dog-api/documentation/random
+// length: 50
 module.exports = async () => {
   const data = await axios.get('https://dog.ceo/api/breeds/image/random/50');
 

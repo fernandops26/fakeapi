@@ -40,6 +40,8 @@
     </div>
   </div>
   <footer class="card-footer">
-    <a href="#" class="card-footer-item">¿No encontraste lo que buscabas?</a>
+    <a href="#no-found" class="card-footer-item">
+      ¿No encontraste lo que buscabas?
+    </a>
   </footer>
 </div>

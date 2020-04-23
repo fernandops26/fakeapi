@@ -3,6 +3,7 @@ module.exports = [
     id: 5,
     title: 'Short Lorems',
     subtitle: 'API de lorems cortos',
+    size: 100,
     structure: {
       id: '1',
       text: 'alias aut aut',

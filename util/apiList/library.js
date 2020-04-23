@@ -3,6 +3,7 @@ module.exports = [
     id: 3,
     title: 'Libraries',
     subtitle: 'API de librerias javascript',
+    size: 250,
     structure: {
       id: '1',
       name: 'vue',

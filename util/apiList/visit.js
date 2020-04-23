@@ -3,6 +3,7 @@ module.exports = [
     id: 9,
     title: 'Visits',
     subtitle: 'API de visitas hacia de web',
+    size: 100,
     structure: {
       id: 1,
       userAgent:

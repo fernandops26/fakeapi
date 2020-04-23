@@ -14,14 +14,14 @@ const geolocationAPI = require('./geoLocation');
 module.exports = [].concat(
   dogAPI,
   domainAPI,
-  libraryAPI,
+  geolocationAPI,
   hashtagAPI,
-  shortLoremAPI,
-  longLoremAPI,
-  userAPI,
   jobAPI,
-  visitAPI,
-  transactionAPI,
+  libraryAPI,
+  longLoremAPI,
+  shortLoremAPI,
   productAPI,
-  geolocationAPI
+  transactionAPI,
+  userAPI,
+  visitAPI
 );

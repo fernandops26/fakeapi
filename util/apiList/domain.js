@@ -3,6 +3,7 @@ module.exports = [
     id: 2,
     title: 'Domains',
     subtitle: 'API de dominios',
+    size: 50,
     structure: {
       id: 1,
       domain: 'huarui-casting.com',

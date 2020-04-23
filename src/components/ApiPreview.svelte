@@ -4,7 +4,6 @@
 
   export let activeAPIData = {};
   let activeTab = "structure";
-  //let apiResult = "";
 
   function handleTab(value) {
     activeTab = value;
@@ -17,6 +16,10 @@
   }
 </script>
 
+<div class="tags has-addons is-pulled-right">
+  <span class="tag">Registros</span>
+  <span class="tag is-info">{activeAPIData.size}</span>
+</div>
 <h2 class="title">{activeAPIData.title}</h2>
 <p class="subtitle">{activeAPIData.subtitle}</p>
 <div class="tabs">

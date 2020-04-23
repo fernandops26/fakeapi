@@ -3,6 +3,7 @@ module.exports = [
     id: 6,
     title: 'Long Lorems',
     subtitle: 'API de lorems largos (párrafos)',
+    size: 100,
     structure: {
       id: '1',
       text:

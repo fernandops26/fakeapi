@@ -3,6 +3,7 @@ module.exports = [
     id: 1,
     title: 'Dogs',
     subtitle: 'API de perros',
+    size: 50,
     structure: {
       id: '1',
       name: 'Pepito',

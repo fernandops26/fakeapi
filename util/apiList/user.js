@@ -3,6 +3,7 @@ module.exports = [
     id: 7,
     title: 'Users',
     subtitle: 'API de usuarios',
+    size: 100,
     structure: {
       id: 1,
       avatar:

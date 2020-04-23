@@ -2,6 +2,7 @@ const request = require('../util/request');
 const faker = require('faker');
 
 // from: https://api.domainsdb.info/
+// length: 50
 module.exports = async () => {
   const data = await request(
     'https://api.domainsdb.info/v1/domains/search?zone=com'

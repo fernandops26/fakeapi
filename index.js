@@ -1,7 +1,14 @@
 // server.js
+const rateLimit = require('express-rate-limit');
 const jsonServer = require('json-server');
 const server = jsonServer.create();
 const apiList = require('./util/apiList');
+
+const limiter = rateLimit({
+  windowMs: 1000, // 1 minute
+  max: 10, // limit each IP to 10 requests per windowMs
+});
+server.use('/api/', limiter);
 
 const middlewares = jsonServer.defaults();
 server.use(middlewares);

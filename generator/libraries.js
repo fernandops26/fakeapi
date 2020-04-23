@@ -6,7 +6,7 @@ module.exports = async () => {
 
   const { results } = data;
 
-  const items = results.slice(0, 100).map((item, i) => ({
+  const items = results.slice(0, 250).map((item, i) => ({
     id: i + 1,
     name: item.name,
     latest: 'https://biglibraryxd.com/ajax/libs/' + item.name + '.min.js',
