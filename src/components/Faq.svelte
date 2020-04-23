@@ -7,6 +7,12 @@
       image: "/question.png"
     },
     {
+      title: "¿Cobrán por utilizar las APIs?",
+      description:
+        "Rotundamente no, el uso de las APIs más gratis que el aire, no tienes que pagar por nada. ",
+      image: "/question.png"
+    },
+    {
       title: "¿Cómo se genera la data falsa de las APIs?",
       description:
         "Para generar la data, se ha utilizado como fuentes algunas librerias como faker.js, chance, y algunas apis publicas más, a estas últimas obviamente tuvimos que cambiar cierta información.",
